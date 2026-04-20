@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subel Ali | Online Store</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; color: #333; }
+        header { background: #2c3e50; color: white; padding: 1.5rem; text-align: center; border-bottom: 4px solid #f39c12; }
+        .header-content { display: flex; flex-direction: column; align-items: center; gap: 10px; }
+        
+        /* লোগো স্টাইল - এখন আপনার দেওয়া লিঙ্ক কাজ করবে */
+        .header-content img { 
+            max-width: 120px; 
+            height: auto; 
+            border-radius: 10px; 
+            background: white; 
+            padding: 5px;
+        }
+
+        nav { background: #34495e; color: white; padding: 15px; text-align: center; }
+        nav a { color: white; text-decoration: none; margin: 0 15px; font-weight: bold; }
+        
+        .container { padding: 30px; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; max-width: 1200px; margin: 0 auto; }
+        
+        .product-card { background: white; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); padding: 20px; text-align: center; transition: 0.3s; }
+        .product-card:hover { transform: translateY(-5px); }
+        
+        /* প্রোডাক্ট ইমেজের সাইজ ঠিক রাখা */
+        .product-card img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 15px; }
+        
+        .price { color: #e74c3c; font-weight: bold; font-size: 1.4rem; margin: 15px 0; display: block; }
+        
+        .buy-btn { display: inline-block; background: #25D366; color: white; border: none; padding: 12px 25px; border-radius: 30px; cursor: pointer; text-decoration: none; font-weight: bold; }
+        .buy-btn:hover { background: #128C7E; }
+        
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px 0; margin-top: 40px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="header-content">
+        <img src="https://i.ibb.co/zhpKYNZR/subel-ali-logo.png" alt="Subel Ali Logo">
+        <div>
+            <h1>Subel Ali Online Store</h1>
+            <p>সেরা পণ্য, সঠিক দাম</p>
+        </div>
+    </div>
+</header>
+
+<nav>
+    <a href="#">হোম</a> | <a href="#">পণ্যসমূহ</a> | <a href="#">যোগাযোগ</a>
+</nav>
+
+<div class="container">
+    <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1556228720-195a672e8a03?auto=format&fit=crop&q=80&w=400" alt="Skin Care">
+        <h3>প্রিমিয়াম স্কিন কেয়ার ক্রিম</h3>
+        <span class="price">৳ ৫০০</span>
+        <a href="https://wa.me/8801776732812?text=হ্যালো সাবের আলী, আমি আপনার ওয়েবসাইট থেকে 'স্কিন কেয়ার ক্রিম' অর্ডার করতে চাই।" class="buy-btn" target="_blank">WhatsApp-এ অর্ডার দিন</a>
+    </div>
+
+    <div class="product-card">
+        <img src="https://images.unsplash.com/photo-1584622781564-1d9876a13d00?auto=format&fit=crop&q=80&w=400" alt="Detergent">
+        <h3>সুপার এক্সপার্ট ডিটারজেন্ট</h3>
+        <span class="price">৳ ১২০</span>
+        <a href="https://wa.me/8801776732812?text=হ্যালো সাবের আলী, আমি আপনার ওয়েবসাইট থেকে 'ডিটারজেন্ট' অর্ডার করতে চাই।" class="buy-btn" target="_blank">WhatsApp-এ অর্ডার দিন</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; ২০২৬ Subel Ali - আপনার সেবা আমাদের লক্ষ্য</p>
+</footer>
+
+</body>
+</html>
